@@ -14,6 +14,8 @@ class UsersSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $this -> call([
+            UsersSeeder::class
+        ]);
     }
 }
