@@ -1,1 +1,1 @@
-usuário único $id
+usuário único {{$id}}
