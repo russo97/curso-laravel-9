@@ -1,4 +1,10 @@
-<h1>Usuário único</h1>
+@extends('layouts.app')
 
-<h2>{{ $user -> name }}</h2>
-<h3>{{ $user -> email }}</h3>
+@section('title', 'Visualizando usuário: ' . $user -> name)
+
+@section('content')
+    <h1>Usuário único</h1>
+
+    <h2>{{ $user -> name }}</h2>
+    <h3>{{ $user -> email }}</h3>
+@endsection
